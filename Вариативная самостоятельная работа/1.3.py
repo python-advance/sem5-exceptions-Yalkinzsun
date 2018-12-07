@@ -29,7 +29,7 @@ def csv_reader(file_obj):
         x.add_row(a)
 
     print(x)
-    with open('new.txt', 'w') as f:
+    with open('table.txt', 'w') as f:
       f.write(x.get_string())
     #print(" ".join(row))
 
