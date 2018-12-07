@@ -15,9 +15,6 @@ def open_file(file):
         data.close()
  
 def csv_reader(file_obj):
-    """
-    Read a csv file
-    """
     x = PrettyTable()
     reader = csv.reader(file_obj)
     x.field_names = next(reader)
@@ -31,7 +28,7 @@ def csv_reader(file_obj):
     print(x)
     with open('table.txt', 'w') as f:
       f.write(x.get_string())
-    #print(" ".join(row))
+
 
 if __name__ == "__main__":
   with open_file('titanic.csv') as f_obj:
