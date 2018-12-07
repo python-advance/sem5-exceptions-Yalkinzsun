@@ -1,0 +1,9 @@
++------------+--------------+--------+------------+-------------+
+|    name    |   surname    |  sex   |   birth    | nationality |
++------------+--------------+--------+------------+-------------+
+|  Catherin  |    Geberg    | female | 13.04.1965 |  Australian |
+| Eustathies | Varfolomeyev |  male  | 01.01.1992 |   Russian   |
+|  Gertrude  |  Wolemasen   | female | 09.08.1998 |   Finnish   |
+|  Kurpusha  |  Fedorovna   | female | 31.05.1968 |  Ukrainian  |
+|   Huang    |     Gong     |  male  | 28.03.1974 |   Chinese   |
++------------+--------------+--------+------------+-------------+
